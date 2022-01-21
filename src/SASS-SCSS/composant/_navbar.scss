@@ -1,0 +1,116 @@
+%flex-layout {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.navbar {
+  @extend %flex-layout;
+  padding: $base-padding $base-padding * 2;
+  box-shadow: $base-box-shadow;
+
+  .site-title {
+    font-size: $font-size-lg;
+  }
+  .container {
+    @extend %flex-layout;
+  }
+  .container-nav {
+    @extend %flex-layout;
+
+    @include xs {
+      display: none;
+    }
+    @include sm {
+      display: none;
+    }
+    @include md {
+      display: none;
+    }
+    @include lg {
+      display: flex;
+      flex-direction: column;
+    }
+    @include xl {
+      display: flex;
+      flex-direction: row;
+    }
+    @include breakpoint(1400px) {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .hidden {
+    @extend %flex-layout;
+
+    @include xs {
+      display: block;
+    }
+    @include sm {
+      display: block;
+    }
+    @include md {
+      display: block;
+    }
+    @include lg {
+      display: none;
+    }
+    @include xl {
+      display: none;
+    }
+    @include breakpoint(1400px) {
+      display: none;
+    }
+  }
+}
+
+@each $key, $val in $couleurs {
+  .navbar-#{$key} {
+    @extend .navbar;
+    background-color: $val;
+  }
+}
+
+.navbar {
+  @include xs {
+    background-color: #71dffb;
+  }
+  @include sm {
+    background-color: #81e2fc;
+  }
+  @include md {
+    background-color: #90e6fc;
+  }
+  @include lg {
+    background-color: #a0e9fd;
+  }
+  @include xl {
+    background-color: #b0edfd;
+  }
+  @include breakpoint(1400px) {
+    background-color: #c0f1fd;
+  }
+}
+.bg-color {
+  @include xs {
+    background-color: #c0f1fd;
+  }
+  @include sm {
+    background-color: #b0edfd;
+  }
+  @include md {
+    background-color: #a0e9fd;
+  }
+  @include lg {
+    background-color: #90e6fc;
+  }
+  @include xl {
+    background-color: #81e2fc;
+  }
+  @include breakpoint(1400px) {
+    background-color: #71dffb;
+  }
+}
