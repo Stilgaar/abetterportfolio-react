@@ -6,12 +6,9 @@ const useSubmit = (url) => {
     const [ok, setOk] = useState(false)
     const [data, setData] = useState({})
 
-    console.log(data)
-
     const handleSubmit = e => {
 
         e.preventDefault();
-        e.persist()
         e.target.reset();
 
         axios.post(url, data)

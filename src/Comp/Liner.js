@@ -4,17 +4,17 @@ function Liner({ i, main, notmain, index }) {
 
     return (
         <div className={index === 0 ? main : notmain}>
-            <div className="card p-2">
+            <div className=" bg-white card-port p-2">
                 <div className="display-f justify-center">
 
                     {index === 0 && main ?
-                        <img className="img" src={i.pic} alt={`${i.title} - ${i.date}`} />
+                        <img src={i.pic} alt={`${i.title} - ${i.date}`} />
                         :
                         <div>
                             {i.stack === "React Native" ?
-                                <img className="img-react" src={i.pic} alt={`${i.title} - ${i.date}`} />
+                                <img className="card img-react" src={i.pic} alt={`${i.title} - ${i.date}`} />
                                 :
-                                <img className="img-thumb" src={i.pic} alt={`${i.title} - ${i.date}`} />}
+                                <img className="card img-thumb" src={i.pic} alt={`${i.title} - ${i.date}`} />}
                         </div>}
                 </div>
 
@@ -27,19 +27,19 @@ function Liner({ i, main, notmain, index }) {
 
                 <p className="container-lg mt-2 mb-2 font-md">{i.explain}</p>
 
-                <div >
+                <div className="mt-3" >
                     {i.front !== "" && <a
                         className="text-hover-primary fw-b"
                         href={i.front}> <img
                             className="img-micro"
-                            src={pics.git}
+                            src={pics[0].pic}
                             alt={i.front} /> Front
                     </a>}
                     {i.back !== "" && <a
                         className="text-hover-primary fw-b"
                         href={i.back}> <img
                             className="img-micro "
-                            src={pics.git}
+                            src={pics[0].pic}
                             alt={i.back} /> Back
                     </a>}
 
@@ -49,4 +49,4 @@ function Liner({ i, main, notmain, index }) {
     )
 }
 
-export default Liner; 
+export { Liner as default } 

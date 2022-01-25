@@ -8,33 +8,37 @@ $grid-gaps: (
   "3": 30px,
 );
 
-$layout-values: flex-start, flex-end, center, space-between, space-around;
+$layout-values: flex-start, flex-end, center, space-between, space-around,
+  space-evenly;
 
 // mise en place de base
 
+@mixin container() {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
 .container {
-  width: 100%;
+  @include container;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
 }
-
 .container-lg {
-  width: 100%;
+  @include container;
   max-width: 900px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
 }
-
 .container-card {
-  width: 100%;
+  @include container;
   max-width: 300px;
   min-height: 500px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
+}
+.container-form {
+  @include container;
+  min-height: 700px;
+}
+.container-acc {
+  @include container;
+  min-height: 60vh;
 }
 
 .row {
@@ -119,5 +123,47 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
       flex-grow: 0;
       width: math.div($i * 100%, $grid-columns);
     }
+  }
+}
+
+.form-marg-l {
+  @include xs {
+    margin: 0;
+  }
+  @include sm {
+    margin: 0;
+  }
+  @include md {
+    margin: 0;
+  }
+  @include lg {
+    margin-top: $base-margin * 2;
+  }
+  @include xl {
+    margin-top: $base-margin * 8;
+  }
+  @include breakpoint(1400px) {
+    margin-top: $base-margin * 10;
+  }
+}
+
+.form-marg-r {
+  @include xs {
+    margin: 0;
+  }
+  @include sm {
+    margin: 0;
+  }
+  @include md {
+    margin: 0;
+  }
+  @include lg {
+    margin-bottom: $base-margin * 2;
+  }
+  @include xl {
+    margin-bottom: $base-margin * 8;
+  }
+  @include breakpoint(1400px) {
+    margin-bottom: $base-margin * 10;
   }
 }

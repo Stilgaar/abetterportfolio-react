@@ -41,9 +41,24 @@ img {
   height: 250px;
 }
 
+.img-sq {
+  height: 300px;
+  width: 300px;
+}
+
 .img-micro {
   width: 25x;
   height: 25px;
+}
+
+.img-mini {
+  width: 25px;
+  height: 25px;
+}
+
+.img-drop {
+  width: 10px;
+  height: 10px;
 }
 
 .img-react {
@@ -87,27 +102,43 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
+  max-width: 1200px;
 }
 
 .container-lg {
   width: 100%;
-  max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
+  max-width: 900px;
 }
 
 .container-card {
   width: 100%;
-  max-width: 300px;
-  min-height: 500px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
+  max-width: 300px;
+  min-height: 500px;
+}
+
+.container-form {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  min-height: 700px;
+}
+
+.container-acc {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  min-height: 60vh;
 }
 
 .row {
@@ -169,6 +200,10 @@ img {
 
 .justify-space-around {
   justify-content: space-around;
+}
+
+.justify-space-evenly {
+  justify-content: space-evenly;
 }
 
 @media (min-width: 0) {
@@ -609,6 +644,68 @@ img {
     width: 100%;
   }
 }
+@media (min-width: 0) {
+  .form-marg-l {
+    margin: 0;
+  }
+}
+@media (min-width: 480px) {
+  .form-marg-l {
+    margin: 0;
+  }
+}
+@media (min-width: 720px) {
+  .form-marg-l {
+    margin: 0;
+  }
+}
+@media (min-width: 960px) {
+  .form-marg-l {
+    margin-top: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .form-marg-l {
+    margin-top: 6rem;
+  }
+}
+@media (min-width: 1400px) {
+  .form-marg-l {
+    margin-top: 7.5rem;
+  }
+}
+
+@media (min-width: 0) {
+  .form-marg-r {
+    margin: 0;
+  }
+}
+@media (min-width: 480px) {
+  .form-marg-r {
+    margin: 0;
+  }
+}
+@media (min-width: 720px) {
+  .form-marg-r {
+    margin: 0;
+  }
+}
+@media (min-width: 960px) {
+  .form-marg-r {
+    margin-bottom: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .form-marg-r {
+    margin-bottom: 6rem;
+  }
+}
+@media (min-width: 1400px) {
+  .form-marg-r {
+    margin-bottom: 7.5rem;
+  }
+}
+
 .text-primary {
   color: #61dbfb;
 }
@@ -3159,6 +3256,14 @@ img {
   text-decoration: underline;
 }
 
+.card-port {
+  min-height: 600px;
+  display: block;
+  padding: 0.75rem;
+  border: 1px solid #61dbfb;
+  border-radius: 5px;
+}
+
 .btn {
   text-decoration: none;
   cursor: pointer;
@@ -4130,11 +4235,11 @@ img {
 }
 
 .pl-6 {
-  padding-left: 4.5rem;
+  padding-left: 7.5rem;
 }
 
 .pl-7 {
-  padding-left: 5.25rem;
+  padding-left: 9rem;
 }
 
 .pr-0 {
@@ -4162,11 +4267,11 @@ img {
 }
 
 .pr-6 {
-  padding-right: 4.5rem;
+  padding-right: 7.5rem;
 }
 
 .pr-7 {
-  padding-right: 5.25rem;
+  padding-right: 9rem;
 }
 
 .pt-0 {
@@ -4194,11 +4299,11 @@ img {
 }
 
 .pt-6 {
-  padding-top: 4.5rem;
+  padding-top: 7.5rem;
 }
 
 .pt-7 {
-  padding-top: 5.25rem;
+  padding-top: 9rem;
 }
 
 .pb-0 {
@@ -4226,11 +4331,15 @@ img {
 }
 
 .pb-6 {
-  padding-bottom: 4.5rem;
+  padding-bottom: 7.5rem;
 }
 
 .pb-7 {
-  padding-bottom: 5.25rem;
+  padding-bottom: 9rem;
+}
+
+.m-a {
+  margin: auto;
 }
 
 .m-0 {
