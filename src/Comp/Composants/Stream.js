@@ -70,7 +70,7 @@ function Stream(props) {
             fontSize: 50,
         }}>
             {stream.map((char, index) => (
-                <a
+                <a key={index}
                     style={{
                         opacity: index < 6 ? 0.1 + index * 0.15 : 1,
                         color: index === stream.length - 1 ? '#111' : undefined,

@@ -5,12 +5,12 @@ const purgecss = require('gulp-purgecss')
 function buildStyles() {
     return src('SASS-SCSS/**/*.scss')
         .pipe(sass())
-        .pipe(purgecss({ content: ['src/**/.js'] }))
+        .pipe(purgecss({ content: ['../src/**/*.js'] }))
         .pipe(dest('css'))
 }
 
 function watcher() {
-    watch(['SASS-SCSS/**/*.scss', '*.js'], buildStyles)
+    watch(['SASS-SCSS/**/*.scss', '*.html'], buildStyles)
 }
 
 exports.default = series(buildStyles, watcher)

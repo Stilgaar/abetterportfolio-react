@@ -1,4 +1,3 @@
-import './Matrix.css'
 import Stream from "./Stream"
 import { useEffect, useState, useRef } from 'react';
 
@@ -32,8 +31,8 @@ function Matrix() {
                 justifyContent: 'center',
             }}
             ref={containerRef}>
-            {new Array(streamCount).fill().map(_ => (
-                <Stream height={containerSize?.height} />
+            {new Array(streamCount).fill().map((_, index) => (
+                <Stream key={index} height={containerSize?.height} />
             ))}
         </div>)
 
