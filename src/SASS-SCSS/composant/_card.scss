@@ -4,7 +4,7 @@
   display: block;
   padding: $base-padding;
   border: $base-border-thickness solid $primary;
-  border-radius: math.div($base-border-radius, 4);
+  border-radius: math.div($base-border-radius, 10);
 
   .card-title {
     font-size: $font-size-lg;
@@ -21,9 +21,9 @@
 }
 
 .card-port {
-  min-height: 600px;
+  min-height: 650px;
   display: block;
   padding: $base-padding;
   border: $base-border-thickness solid $primary;
-  border-radius: math.div($base-border-radius, 4);
+  border-radius: math.div($base-border-radius, 10);
 }

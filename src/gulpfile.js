@@ -10,7 +10,7 @@ function buildStyles() {
 }
 
 function watcher() {
-    watch(['SASS-SCSS/**/*.scss', '*.html'], buildStyles)
+    watch(['SASS-SCSS/**/*.scss', '../src/**/*.js'], buildStyles)
 }
 
 exports.default = series(buildStyles, watcher)

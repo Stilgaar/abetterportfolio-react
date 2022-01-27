@@ -4,7 +4,7 @@ function Navbar() {
 
     return (
 
-        <nav className="navbar mb-2">
+        <nav className="navbar mb-2" id="nav">
             <div className="ml-2 mr-2 m-1 p-1 container-nav">
                 <h1 className="site-title">
                     Jeff van Straelen Portfolio

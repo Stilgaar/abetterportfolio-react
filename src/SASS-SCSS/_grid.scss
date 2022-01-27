@@ -40,6 +40,10 @@ $layout-values: flex-start, flex-end, center, space-between, space-around,
   @include container;
   min-height: 60vh;
 }
+.container-comp {
+  @include container;
+  max-width: 200px;
+}
 
 .row {
   display: flex;
@@ -165,5 +169,26 @@ $layout-values: flex-start, flex-end, center, space-between, space-around,
   }
   @include breakpoint(1400px) {
     margin-bottom: $base-margin * 10;
+  }
+}
+
+.img-thumb {
+  @include xs {
+    height: 150px;
+  }
+  @include sm {
+    height: 150px;
+  }
+  @include md {
+    height: 200px;
+  }
+  @include lg {
+    height: 150px;
+  }
+  @include xl {
+    height: 150px;
+  }
+  @include breakpoint(1400px) {
+    height: 250px;
   }
 }

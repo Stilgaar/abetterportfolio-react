@@ -3,8 +3,8 @@ import { useState } from 'react';
 
 const useSubmit = (url) => {
 
-    const [ok, setOk] = useState(false)
     const [data, setData] = useState({})
+    const [resMsg, setResMsg] = useState()
 
     const handleSubmit = e => {
 
@@ -12,9 +12,7 @@ const useSubmit = (url) => {
         e.target.reset();
 
         axios.post(url, data)
-            .then(res => {
-                if (res.data === 'done') { setOk(true) };
-            })
+            .then(res => setResMsg(res.data))
             .then(() => setData({}))
             .catch((err) => console.log(err))
     }
@@ -24,7 +22,7 @@ const useSubmit = (url) => {
         setData(data => ({ ...data, [e.target.name]: e.target.value }))
     }
 
-    return [data, handleChange, handleSubmit, ok, setOk]
+    return [data, handleChange, handleSubmit, resMsg, setResMsg]
 }
 
 export default useSubmit;

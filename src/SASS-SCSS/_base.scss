@@ -34,11 +34,6 @@ img {
   max-width: 100%;
 }
 
-.img-thumb {
-  width: 600px;
-  height: 250px;
-}
-
 .img-sq {
   height: 300px;
   width: 300px;
@@ -65,4 +60,8 @@ img {
 
 .base-border {
   border: $base-border-thickness solid black;
+}
+
+.pre {
+  white-space: pre-wrap;
 }

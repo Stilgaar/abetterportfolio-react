@@ -71,6 +71,7 @@ $utilities: (
     "values": (
       "a": auto,
       "0": 0,
+      "025": $base-margin * 0.25,
       "1": $base-margin,
       "2": $base-margin * 2,
       "3": $base-margin * 4,
@@ -84,6 +85,7 @@ $utilities: (
     "prefix": "ml",
     "values": (
       "0": 0,
+      "025": $base-margin * 0.25,
       "1": $base-margin,
       "2": $base-margin * 2,
       "3": $base-margin * 4,
@@ -97,6 +99,7 @@ $utilities: (
     "prefix": "mr",
     "values": (
       "0": 0,
+      "025": $base-margin * 0.25,
       "1": $base-margin,
       "2": $base-margin * 2,
       "3": $base-margin * 4,
@@ -110,6 +113,7 @@ $utilities: (
     "prefix": "mt",
     "values": (
       "0": 0,
+      "025": $base-margin * 0.25,
       "1": $base-margin,
       "2": $base-margin * 2,
       "3": $base-margin * 4,
@@ -123,6 +127,7 @@ $utilities: (
     "prefix": "mb",
     "values": (
       "0": 0,
+      "025": $base-margin * 0.25,
       "1": $base-margin,
       "2": $base-margin * 2,
       "3": $base-margin * 4,
