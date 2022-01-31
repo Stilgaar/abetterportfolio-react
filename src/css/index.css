@@ -244,12 +244,47 @@ img {
   }
 }
 
+@media (min-width: 0) {
+  .img-full {
+    height: 150px;
+  }
+}
+@media (min-width: 480px) {
+  .img-full {
+    height: 150px;
+  }
+}
+@media (min-width: 720px) {
+  .img-full {
+    height: 200px;
+  }
+}
+@media (min-width: 960px) {
+  .img-full {
+    height: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .img-full {
+    height: 400px;
+  }
+}
+@media (min-width: 1400px) {
+  .img-full {
+    height: 500px;
+  }
+}
+
 .text-primary {
   color: #61dbfb;
 }
 
 .text-hover-primary:hover {
   color: #61dbfb;
+}
+
+.text-primary-dark-2 {
+  color: #4eafc9;
 }
 
 .text-hover-white:hover {
@@ -268,7 +303,7 @@ img {
 }
 
 .card-port {
-  min-height: 650px;
+  min-height: 570px;
   display: block;
   padding: 0.75rem;
   border: 1px solid #61dbfb;
@@ -599,10 +634,6 @@ img {
 
 .font-sm {
   font-size: 0.75rem;
-}
-
-.font-md {
-  font-size: 1rem;
 }
 
 .t-start {

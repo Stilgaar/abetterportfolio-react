@@ -1,7 +1,7 @@
 window.env = {
   "ALLUSERSPROFILE": "C:\\ProgramData",
   "APPDATA": "C:\\Users\\stilg\\AppData\\Roaming",
-  "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_17956_WZXNSLMEDCKFDUOJ",
+  "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_2492_EQRLAQXXIBLOSXND",
   "COLORTERM": "truecolor",
   "CommonProgramFiles": "C:\\Program Files\\Common Files",
   "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
@@ -178,7 +178,7 @@ window.env = {
   "npm_package_devDependencies__use_it_interval": "^1.0.0",
   "npm_package_eslintConfig_extends_0": "react-app",
   "npm_package_eslintConfig_extends_1": "react-app/jest",
-  "npm_package_gitHead": "74b65205433b245443de37169cd61ef8cb461e05",
+  "npm_package_gitHead": "5664c994862ff927ed1b9c17f7a71b36edae9e9d",
   "npm_package_name": "portfolioter",
   "npm_package_private": "true",
   "npm_package_readmeFilename": "README.md",

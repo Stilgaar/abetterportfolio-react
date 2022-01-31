@@ -192,3 +192,24 @@ $layout-values: flex-start, flex-end, center, space-between, space-around,
     height: 250px;
   }
 }
+
+.img-full {
+  @include xs {
+    height: 150px;
+  }
+  @include sm {
+    height: 150px;
+  }
+  @include md {
+    height: 200px;
+  }
+  @include lg {
+    height: 300px;
+  }
+  @include xl {
+    height: 400px;
+  }
+  @include breakpoint(1400px) {
+    height: 500px;
+  }
+}

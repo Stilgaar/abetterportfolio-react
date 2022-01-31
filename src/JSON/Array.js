@@ -25,7 +25,7 @@ const porfolio = [
         "front": "https://github.com/Stilgaar/uppertown-front-reactjs",
         "back": "https://github.com/Stilgaar/uppertown-back-nodejs",
         "pic": "/img-port/upe.jpg",
-        "explain": "Notre projet final de lors de notre formation. \n\nProof of Concept d'un projet dans l'immobilier, une application web de crowfunding sous forme de tokens NFT. \n\nDepuis la fin de notre projet, j'ai constament travaillé dessus pour y apporter des amélioration. Au fur et à mesure de mes apprentissages j'ai pu y apporter des Hooks persos, useContext, ma propre bibilothèque Sass ainsi qu'un allégement du heap. \n\nDepuis fin Novembre, le Front-End à reçu une refonte totale. Le Backend est également en attente de nombreuses modification. Si vous avez un projet à regarder pour évaluer mes compétences ce serait celui-ci",
+        "explain": "Notre projet final de lors de notre formation. \n\nProof of Concept d'un projet dans l'immobilier, une application web de crowdfunding sous forme de tokens NFT. \n\nDepuis la fin de notre projet, j'ai constamment travaillé dessus pour y apporter des amélioration. Au fur et à mesure de mes apprentissages j'ai pu y apporter des Hooks persos, useContext, ma propre bibliothèque Sass ainsi qu'un allégement du heap. \n\nDepuis fin Novembre, le Front-End à reçu une refonte totale. Le Backend est également en attente de nombreuses modification. Si vous avez un projet à regarder pour évaluer mes compétences ce serait celui-ci",
     },
     {
         "title": "Ce Porfolio",
@@ -43,7 +43,7 @@ const porfolio = [
         "front": "https://github.com/Stilgaar/delivirum-front-reactjs",
         "back": "https://github.com/Stilgaar/delivrium-back-nodejs-expressjs",
         "pic": "/img-port/livre.jpg",
-        "explain": "Toute première application react en full stack. Nous disposions d'une semaine pour réaliser ce projet. Cela faisait seulement un mois que nous avions commencé à apprendre ne serait-ce que le HMTL et le CSS. Application Web de recherche et critique de livres via l'API Goolge Books.",
+        "explain": "Toute première application React en full stack. Nous disposions d'une semaine pour réaliser ce projet. Cela faisait seulement un mois que nous avions commencé à apprendre ne serait-ce que le HMTL et le CSS. Application Web de recherche et critique de livres via l'API Goolge Books.",
     },
     {
         "title": "Mon premier Portfolio",
@@ -52,7 +52,7 @@ const porfolio = [
         "front": "https://github.com/Stilgaar/portfolio-front-projet-final-react",
         "back": "https://github.com/Stilgaar/portfolio-back-projet-final-node",
         "pic": "/img-port/port1.JPG",
-        "explain": "Mon tout premier portfolio, je l'avais réalisé en fin d'études, entre mi-novembre et début décembre 2021. J'ai mis presque deux semaines à le réaliser. Même si c'était il ya peu de temps, j'ai vraiment mis trop de temps. J'ai préféré réaliser ce nouveau support plutôt que de le retravailler celui-ci.",
+        "explain": "Mon tout premier portfolio, je l'avais réalisé en fin d'études, entre mi-novembre et début décembre 2021. J'ai mis presque deux semaines à le réaliser. Même si c'était il y a peu de temps, j'ai vraiment mis trop de temps. J'ai préféré réaliser ce nouveau support plutôt que de le retravailler celui-ci.",
     },
     {
         "title": "PortFolio (exercice)",
@@ -70,7 +70,7 @@ const porfolio = [
         "front": "https://github.com/Stilgaar/next.js-first-streps-full-mvp",
         "back": "",
         "pic": "/img-port/next.JPG",
-        "explain": "Après avoir vu le côté statique des Frameworks React, j'avais également envie de realiser un projet en Next.js, le Framework 'dynamique', avec le Server Side Rendering de React. Même si le projet est petit, je comprends à quel point il est important pour le SEO d'un site en augmentant son taux de rebond"
+        "explain": "Après avoir vu le côté statique des Frameworks React, j'avais également envie de réaliser un projet en Next.js, le Framework 'dynamique', avec le Server Side Rendering de React. Même si le projet est petit, je comprends à quel point il est important pour le SEO d'un site en augmentant son taux de rebond"
     },
     {
         "title": "Ma première bibilothèque Sass",
@@ -79,7 +79,7 @@ const porfolio = [
         "front": "https://github.com/Stilgaar/sass-premier-projet",
         "back": "",
         "pic": "/img-port/sass.JPG",
-        "explain": "Nous l'avons abordé pendant le bootcamp d'une manière un peu succinte. J'avais déjà réalisé à quel point Sass aidait dans le CSS, mais pas à quel point un bibliothèque faite main est pratique. J'ai depuis remplanté ma bibliothéque sur de nombreux projets, dont celui-ci. ",
+        "explain": "Nous l'avons abordé pendant le bootcamp d'une manière un peu succincte. J'avais déjà réalisé à quel point Sass aidait dans le CSS, mais pas à quel point un bibliothèque faite main est pratique. J'ai depuis réimplanté ma bibliothèque sur de nombreux projets, dont celui-ci. ",
     },
     {
         "title": "Première application Meteo",
@@ -88,7 +88,7 @@ const porfolio = [
         "front": "https://github.com/Stilgaar/application-meteo-react-native",
         "back": "",
         "pic": "/img-port/meteo.JPG",
-        "explain": "Bien que pas très jolie, elle avait le mérite de fonctionner. Réalisé avec une API météo (gratuite), celle-ci donnait la météo sur cinq jours en fonction de votre localisation. Vous pouviez aussi demander quel temps il faisait à une location préscise.",
+        "explain": "Bien que pas très jolie, elle avait le mérite de fonctionner. Réalisé avec une API météo (gratuite), celle-ci donnait la météo sur cinq jours en fonction de votre localisation. Vous pouviez aussi demander quel temps il faisait à une location précise..",
     },
     {
         "title": "Application Delivrium",
@@ -97,7 +97,7 @@ const porfolio = [
         "back": "",
         "front": "https://github.com/Stilgaar/",
         "pic": "/img-port/app.JPG",
-        "explain": "Dans la continuité de l'application Web du même nom, j'ai crée une appliction mobile utilisant également l'API Google Books. Celle-ci permettait de chercher des livres et de les acheter sur Amazon. J'avais également développé un 'Tinder' pour trouver son match en livre ",
+        "explain": "Dans la continuité de l'application Web du même nom, j'ai crée une application mobile utilisant également l'API Google Books. Celle-ci permettait de chercher des livres et de les acheter sur Amazon. J'avais également développé un 'Tinder' pour trouver son match en livre ",
     },
     {
         "title": "Air Guitar",
@@ -205,9 +205,9 @@ export const form = [
     {
         "Bocal Academy de Nice": [
             {
-                "type": "Cours en Ligne",
+                "type": "Full Remote",
                 "support": "https://lebocal.academy/",
-                "year": "Septembre 2021 - Novembre 2021",
+                "year": "De Septembre à Novembre 2021",
                 "explanation": "Formation en full-remote de develppeur full stack JavaScript",
                 "points":
                     [
@@ -218,150 +218,142 @@ export const form = [
                         { "point": "Maîtriser le fonctionnement de base de NodeJS" },
                         { "point": "Savoir créer et utiliser une base de données MongoDB" },
                         { "point": "Maîtriser le développement d’une application mobile simple avec ReactNative" },
-                        { "point": "Connaître le fonctionement de SCRUM" },
+                        { "point": "Connaître le fonctionnement de SCRUM" },
                         { "point": "Mener un projet web Fulstack en autonomie" },
+                        { "point": "350 heures", "duration": true, "bold": true }
                     ],
-                "duration": "350 heures",
                 "total": 21000,
                 "done": "Attestation de Compétences Bocal Academy"
             }
         ]
     },
     {
-        "Gatsby, Shaun Penning": [
+        "Frameworks React": [
             {
                 "type": "Cours en Ligne",
                 "support": "YouTube",
                 "year": "Decembre 2021",
-                "explanation": "Réalisation d'un site avec le Framework Gatsby",
+                "explanation": "Construire une page web avec les Frameworks : Gatsby, Next.js",
                 "points": [
+                    { "point": "Gatsby", "author": "Shaun Penning", "bold": true },
                     { "point": "Familiarisation avec GraphQL" },
                     { "point": "Familiarisation avec le serveur Apollo et les mutations" },
                     { "point": "Mise en place de Mark Down Files, exploitables par le Framework Gatsby" },
-                ],
-                "duration": "2 heures 26 minutes",
-                "total": 146,
-                "done": "Formation Terminée , premier Framework CSR"
-            }
-        ]
-    },
-    {
-        "Next.js, Shaun Penning": [
-            {
-                "type": "Cours en Ligne",
-                "support": "YouTube",
-                "year": "Decembre 2021",
-                "explanation": "Réalisation d'un site avec le Framework Next.js",
-                "points": [
+                    { "point": "2 heures 26 minutes", "duration": true, "bold": true },
+                    { "point": '' },
+                    { "point": "Next", "author": "Shaun Penning", "bold": true },
                     { "point": "Création d'un premier site en utilisant le Framework Next" },
                     { "point": "Mise en place des fonctions type getStaticPaths et getStaticProps" },
                     { "point": "Utilisation d'une base de données pour crée des pages côté serveur" },
+                    { "point": "1 heures 22 minutes", "duration": true, "bold": true },
                 ],
-                "duration": "1 heures 22 minutes",
-                "total": 82,
-                "done": "Formation Terminée, premier Framework SSR"
+                "total": 146 + 82,
+                "done": "Formation Terminée , premiers Frameworks CSR et SSR"
             }
         ]
     },
     {
-        "Réaliser sa biblothéque Sass, Shaun Penning": [
+        "React": [
             {
                 "type": "Cours en Ligne",
-                "support": "YouTube",
-                "year": "Decembre 2021",
-                "explanation": "Approfindissement de l'apprentissage en JavaScript ",
+                "support": "YouTube && Udemy",
+                "year": "Janvier 2022",
+                "explanation": "Approfondissement de l'apprentissage en React",
                 "points": [
-                    { "point": "Utilisation de Gulp ainsi que de ses fonctionalités avec Sass" },
-                    { "point": "Utlisation de fonctions générant du CSS en fonction de variables" },
-                    { "point": "Utilisation de gulp pour purger le css inutile" },
-                    { "point": "Création de mon propre petit Boostrap réutilisable" },
+                    { "point": "Full React Tutorial (Yt)", "author": "Shaun Penning", "bold": true },
+                    { "point": "Approfondissement de React" },
+                    { "point": "Révisions hooks de base, React Router Dom (V.5)" },
+                    { "point": "useEffect Clean Ups" },
+                    { "point": "React Dev Tools" },
+                    { "point": "3 heures 13 minutes", "duration": true, "bold": true },
+                    { "point": '' },
+                    { "point": "Build Web Apps with React & Firebase (Udemy)", "author": "Shaun Penning", "bold": true },
+                    { "point": "Approfondissement de React" },
+                    { "point": "Approfondissement des hooks de base : useState, useEffect, useContext" },
+                    { "point": "Apprentissage et approfondissement des hooks supplémentaires : useRef, useCallback, useReduce" },
+                    { "point": "Hooks perso" },
+                    { "point": "React & Firebase (v8.5)" },
+                    { "point": "Firebase : CRUD - Authentication" },
+                    { "point": "Création de quatre projets distinct de mise en pratique" },
+                    { "point": "23 heures 30", "duration": true, "bold": true },
+                    { "point": "(En cours)", "bold": true },
                 ],
-                "duration": "3 heures 6 minutes",
-                "total": 186,
-                "done": "Formation Terminée, première bibliothèque Sass réutilisable et fonctionnelle"
-            }
-        ]
-    },
-    {
-        "TypeScript Tutorial, Shaun Penning": [
-            {
-                "type": "Cours en Ligne",
-                "support": "YouTube",
-                "year": "Decembre 2021",
-                "explanation": "Utilisation de TypeScript",
-                "points": [
-                    { "point": "Compiler le Typescript en continu ainsi que les bases" },
-                    { "point": "Typer le JavaScript, Primitives, Object, Arrays, Fonctions, Classes" },
-                    { "point": "Public, Private & Readonly" },
-                    { "point": "Enums, Tulpes, Generics" }
-                ],
-                "duration": "2 heures 35 minutes",
-                "total": 155,
+                "total": 193 + 1410,
                 "done": "Formation Terminée"
             }
         ]
     },
     {
-        "Divers Outils, Shaun Penning": [
+        "JavaScript": [
+            {
+                "type": "Cours en Ligne",
+                "support": "YouTube && Udemy",
+                "year": "TypeScript : Decembre 2021 - Modern JavaScript : Janvier 2022",
+                "explanation": "Approndissement de JavaScript, apprentissage de TypeScript",
+                "points": [
+                    { "point": "TypeScript (Yt)", "author": "Shaun Penning", "bold": true },
+                    { "point": "Compiler le Typescript en continu ainsi que les bases de TypeScript" },
+                    { "point": "Typer le JavaScript, Primitives, Object, Arrays, Fonctions, Classes" },
+                    { "point": "Public, Private & Readonly" },
+                    { "point": "Enums, Tulpes, Generics" },
+                    { "point": "2 heures 35 minutes", "duration": true, "bold": true },
+                    { "point": '' },
+                    { "point": "'Modern JavaScript' (Udemy)", "author": "Shaun Penning", "bold": true },
+                    { "point": "Approfondissement du JavaScript" },
+                    { "point": "Utilisation et mise en place de WebPack" },
+                    { "point": "Utilisation et mise en place de Babel" },
+                    { "point": "Revoir les dernières mises à jour EcmaScript" },
+                    { "point": "Création d'une base de données en Firebase" },
+                    { "point": "Création d'une première bibilothèque de modification de UI en JavaScript" },
+                    { "point": "20 heures", "duration": true, "bold": true },
+                ],
+                "total": 155 + 1200,
+                "done": "Formation Terminée, premier 'Boilerplate' JavaScript"
+            }
+        ]
+    },
+    {
+        "Outils": [
             {
                 "type": "Cours en Ligne",
                 "support": "YouTube",
                 "year": "Janvier 2022",
                 "explanation": "UseQuery - React Router Dom V6",
                 "points": [
-                    { "point": "useQuery" },
-                    { "point": "Apprentissag de la V.2 de useQuery, utilisation de la documentation pour l'utilisation de la V3" },
+                    { "point": "useQuery", "author": "Shaun Penning", "bold": true },
+                    { "point": "Apprentissage de la V.2 de useQuery, utilisation de la documentation pour l'utilisation de la V3" },
                     { "point": "Réalisation d'un mini site utilisant une base de données et l'outil useQuery" },
+                    { "point": "54 minutes", "duration": true, "bold": true },
                     { "point": '' },
-                    { "point": "React Router Dom V6" },
+                    { "point": "React Router Dom V6", "author": "Shaun Penning", "bold": true },
                     { "point": "Nouvelles pratiques" },
+                    { "point": "30 minutes", "duration": true, "bold": true },
                 ],
-                "duration": "54 minutes / 30 minutes",
                 "total": 54 + 30,
                 "done": "Formation Terminée"
             }
         ]
     },
     {
-        "'Modern JavaScript', Shaun Penning": [
-            {
-                "type": "Cours en Ligne",
-                "support": "Udemy",
-                "year": "Janvier 2022",
-                "explanation": "Approfondissement de l'apprentissage en JavaScript",
-                "points": [
-                    { "point": "Appronfondissement du JavaScript" },
-                    { "point": "Utilisation et mise en place de WebPack" },
-                    { "point": "Utilisation et mise en place de Babel" },
-                    { "point": "Revoir les dernières mises à jour EcmaScript" },
-                    { "point": "Création d'une base de données en Firebase" },
-                    { "point": "Création d'une première bibilothèque de modification de UI en JavaScript" },
-                ],
-                "duration": "20 heures",
-                "total": 1200,
-                "done": "Formation Terminée, premier 'Boilerplate' JavaScript"
-            }
-        ]
-    },
-    {
-        "Full React Tutorial, Shaun Penning": [
+        "CSS & Sass": [
             {
                 "type": "Cours en Ligne",
                 "support": "YouTube",
-                "year": "Janvier 2022",
-                "explanation": "Approfondissement de l'apprentissage en React",
+                "year": "Decembre 2021",
+                "explanation": "Bases de Sass, créations de fonctions, mixins, et d'une bibliothèque Sass ",
                 "points": [
-                    { "point": "Appronfondissement de React" },
-                    { "point": "Révisions hooks de base, React Router Dom (V.5)" },
-                    { "point": "useEffect Clean Ups" },
-                    { "point": "React Dev Tools" },
+                    { "point": "Première Bibliothèque Sass", "author": "Shaun Penning", "bold": true },
+                    { "point": "Utilisation de Gulp ainsi que de ses fonctionnalités  avec Sass" },
+                    { "point": "Utilisation de fonctions générant du CSS en fonction de variables" },
+                    { "point": "Utilisation de gulp pour purger le css inutile" },
+                    { "point": "Création de mon propre petit Boostrap réutilisable" },
+                    { "point": "3 heures 6 minutes", "duration": true, "bold": true },
                 ],
-                "duration": "3 heures 13 minutes",
-                "total": 193,
-                "done": "Formation Terminée"
+                "total": 186,
+                "done": "Formation Terminée, première bibliothèque Sass réutilisable et fonctionnelle"
             }
         ]
-    }
+    },
 ]
 
 
@@ -400,7 +392,7 @@ export const global = [
 
     {
         "section": "acceuil",
-        "label": "Acceuil",
+        "label": "Accueil",
         "list": acceuil,
 
     },
@@ -417,7 +409,7 @@ export const global = [
     },
     {
         "section": "form",
-        "label": "Formation",
+        "label": "Formations",
         "list": form,
     },
     {

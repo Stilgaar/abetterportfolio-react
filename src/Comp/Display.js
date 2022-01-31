@@ -88,7 +88,7 @@ function Display() {
                             {item.list.map((i, index) => (
                                 <Comp key={index} i={i} display={"form"} indexform={index} />
                             ))}
-                            <div className="m-a fw-b"><span className="text-primary">Soit une durée totale de formation de </span> {time()}</div>
+                            <div className="m-a fw-b"><span className="text-primary-dark-2">Soit une durée totale de formation de </span> {time()}</div>
                             {/*
                              je la remetterais probablement plus tard
                             <div className="m-a fw-b"><span className="text-primary">Ou </span> {parseInt(time()) - 350} heures depuis la fin de ma formation</div> */}

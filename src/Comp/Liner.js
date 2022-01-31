@@ -4,11 +4,11 @@ function Liner({ i, main, notmain, index }) {
 
     return (
         <div className={index === 0 ? main : notmain}>
-            <div className="card-port p-2">
+            <div className="card-port p-2 ml-2 mr-2">
                 <div className="display-f justify-center">
 
                     {index === 0 && main ?
-                        <img src={i.pic} alt={`${i.title} - ${i.date}`} />
+                        <img className="img-full card" src={i.pic} alt={`${i.title} - ${i.date}`} />
                         :
                         <div>
                             {i.stack === "React Native" ?
@@ -27,7 +27,7 @@ function Liner({ i, main, notmain, index }) {
                     <p>{i.date}</p>
                 </div>
 
-                <p className="container-lg mt-2 mb-2 font-md pre">{i.explain}</p>
+                <p className="container-lg mt-2 mb-2 font-sm pre">{i.explain}</p>
 
                 <div className="mt-3" >
                     {i.front !== "" &&
