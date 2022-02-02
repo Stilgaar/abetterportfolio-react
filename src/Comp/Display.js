@@ -33,8 +33,7 @@ function Display() {
                     <h2 id={`${item.section}`} className="bg-color p-2">{item.label}</h2>
 
                     {item?.section === "acceuil" &&
-                        <div className="mt-7 row">
-
+                        <div className="mt-5 mb-5 row">
                             {item.list.map((i, index) => (
                                 <div key={index} className="row justify-space-evenly m-3" >
                                     <div className="mb-3 display-f fd-c">
@@ -45,18 +44,18 @@ function Display() {
 
                                         <div className=" display-f justify-center mt-1">
                                             {pics.map((i, index) => (
-                                                <a key={index} href={i.link}><img className="img-mini bg-color p-1 br-xs m-1" src={i.pic} alt={i.name} /> </a>
+                                                <a key={index} href={i.link} target="_blank" rel="noreferrer nofollow" >
+                                                    <img className="img-mini bg-color p-1 br-xs m-1" src={i.pic} alt={i.name} /> </a>
                                             ))}
                                         </div>
 
                                     </div>
 
                                     <div className="bg-white p-2 col-6-bp col-4-xl col-12-lg col-12-md col-12-sm">
-                                        <div className="fw-br pb-1">{i.title}</div>
-                                        <div>{i.age}</div>
+                                        <h1 className="fw-br pb-1">{i.title}</h1>
                                         <div>{i.loc}</div>
                                         <div><a href={`mailto:${i.mail}`}>{i.mail} </a></div>
-                                        <div className="pt-2 pre">{i.text}</div>
+                                        <div className="pt-2 pre font-sm">{i.text}</div>
                                     </div>
 
                                 </div>

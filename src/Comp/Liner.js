@@ -33,7 +33,8 @@ function Liner({ i, main, notmain, index }) {
                     {i.front !== "" &&
                         <a
                             className="text-hover-primary fw-b"
-                            href={i.front}>
+                            href={i.front}
+                            target="_blank" rel="noreferrer nofollow" >
                             <img
                                 className="img-micro ml-1"
                                 src={pics[0].pic}
@@ -43,7 +44,8 @@ function Liner({ i, main, notmain, index }) {
                     {i.back !== "" &&
                         <a
                             className="text-hover-primary fw-b"
-                            href={i.back}>
+                            href={i.back}
+                            target="_blank" rel="noreferrer nofollow" >
                             <img
                                 className="img-micro ml-1"
                                 src={pics[0].pic}

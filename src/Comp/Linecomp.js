@@ -27,14 +27,14 @@ function Linecomp({ e, display, indexform }) {
                                         <img className="img-micro"
                                             src={i.src}
                                             alt={i.name} />
-                                        {i?.name}
+                                        <span className="font-sm"> {i?.name} </span>
                                     </a>
                                 </div>
                                 : <div className="display-f">
-                                    <img className="img-micro"
+                                    <img className="img-micro mt-025 "
                                         src={i.src}
                                         alt={i.name} />
-                                    <div className="mt-025"> {i?.name} </div>
+                                    <span className="mt-075 font-sm"> {i?.name} </span>
                                 </div>
                             }
                         </div>

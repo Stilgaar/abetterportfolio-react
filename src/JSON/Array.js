@@ -9,10 +9,9 @@ export const pics = [
 const acceuil = [
     {
         "title": "Developpeur FullStack JavaScript",
-        "age": "39 ans, ",
-        "loc": "Grasse, Région PACA, ",
+        "loc": "Grasse, Région PACA",
         "mail": "jeffvanstraelen@gmail.com",
-        "text": `Après trois ans à mon compte en tant que Photographe ainsi qu'une dizaine d'années en management dans la restauration, j'ai voulu me lancer dans une nouvelle Aventure. \n\nJe me suis naturellement orienté vers un secteur me tendant les bras: le développement web. Pour cette raison, j'ai suivi une formation bootcamp en distanciel au Bocal Academy de Nice. \n \nDepuis la fin de la formation je n'ai cessé d'apprendre de nouvelles technos en suivant de nombreux tutoriels en ligne`,
+        "text": "Ancien assistant manager dans la restauration de luxe, j’ai été passionné et fasciné par l’informatique depuis tout môme. À quatre ans j’avais entre les mains mon premier Commodore 64, depuis j’ai toujours vécu avec un ordinateur entre les mains. \n\nAprès un peu de prospection j’ai découvert que le Bocal Academy de Nice lançait des Dev On Rails. Cette formation m’a énormément plû. Depuis sa fin en Novembre, je n’ai cessé d’approfondir mes connaissances à travers des tutoriels YouTube ou encore des cours sur Udemy. Notamment les cours de Grafikart, mais surtout ceux de Shaun Penning.",
         "pic": "/1.jpg"
     }
 ]
@@ -28,34 +27,16 @@ const porfolio = [
         "explain": "Notre projet final de lors de notre formation. \n\nProof of Concept d'un projet dans l'immobilier, une application web de crowdfunding sous forme de tokens NFT. \n\nDepuis la fin de notre projet, j'ai constamment travaillé dessus pour y apporter des amélioration. Au fur et à mesure de mes apprentissages j'ai pu y apporter des Hooks persos, useContext, ma propre bibliothèque Sass ainsi qu'un allégement du heap. \n\nDepuis fin Novembre, le Front-End à reçu une refonte totale. Le Backend est également en attente de nombreuses modification. Si vous avez un projet à regarder pour évaluer mes compétences ce serait celui-ci",
     },
     {
-        "title": "Ce Porfolio",
-        "stack": "MERN, Sass",
+        "title": "Projet Trello",
+        "stack": 'React - Firebase',
         "date": "Janvier 2022",
-        "front": "https://github.com/Stilgaar/abetterportfolio-react",
-        "back": "https://github.com/Stilgaar/portfolio-back-projet-final-node",
-        "pic": "/img-port/actuel.jpg",
-        "explain": "Après avoir aquis énormément de nouvelles connaissances et de manipulation de React, j'ai décidé de réaliser un nouveau portfolio plus en adéquation avec ce que j'arrive à réaliser aujourd'hui. Le code est ainsi plus lèger, j'ai adapté ma bibliothèque sass pour cette réalisation. Notez que j'ai réalisé celui-ci, from scratch, en une journée. Pour le peu que j'avais à faire dans le back, j'ai gardé le même qu'avant",
+        "front": "https://github.com/Stilgaar/react-firebase-projetc-trello-like-concept",
+        "back": "",
+        "pic": "/img-port/trello.JPG",
+        "explain": "Projet de fin du cursus Udemy par Shaun Penning. Chouette projet d'une replique d'un Trello avec quelques fonctionnalités. Bonne familiaristion avec firebase, gros approndissement de React, ses hooks ainsi que la création d'hooks perso (réutilisables)"
     },
     {
-        "title": "Delivrium",
-        "stack": "MERN",
-        "date": "Ocotobre 2021",
-        "front": "https://github.com/Stilgaar/delivirum-front-reactjs",
-        "back": "https://github.com/Stilgaar/delivrium-back-nodejs-expressjs",
-        "pic": "/img-port/livre.jpg",
-        "explain": "Toute première application React en full stack. Nous disposions d'une semaine pour réaliser ce projet. Cela faisait seulement un mois que nous avions commencé à apprendre ne serait-ce que le HMTL et le CSS. Application Web de recherche et critique de livres via l'API Goolge Books.",
-    },
-    {
-        "title": "Mon premier Portfolio",
-        "stack": "MERN",
-        "date": "Decembre 2021",
-        "front": "https://github.com/Stilgaar/portfolio-front-projet-final-react",
-        "back": "https://github.com/Stilgaar/portfolio-back-projet-final-node",
-        "pic": "/img-port/port1.JPG",
-        "explain": "Mon tout premier portfolio, je l'avais réalisé en fin d'études, entre mi-novembre et début décembre 2021. J'ai mis presque deux semaines à le réaliser. Même si c'était il y a peu de temps, j'ai vraiment mis trop de temps. J'ai préféré réaliser ce nouveau support plutôt que de le retravailler celui-ci.",
-    },
-    {
-        "title": "PortFolio (exercice)",
+        "title": "Portfolio sous Gatsby",
         "stack": "Gatsby, GraphQL",
         "date": "Decembre 2021",
         "front": "https://github.com/Stilgaar/portfolio-front-gatsbyjs-graphql",
@@ -99,15 +80,6 @@ const porfolio = [
         "pic": "/img-port/app.JPG",
         "explain": "Dans la continuité de l'application Web du même nom, j'ai crée une application mobile utilisant également l'API Google Books. Celle-ci permettait de chercher des livres et de les acheter sur Amazon. J'avais également développé un 'Tinder' pour trouver son match en livre ",
     },
-    {
-        "title": "Air Guitar",
-        "stack": "HTML - CSS",
-        "date": "Septembre 2021",
-        "front": "https://github.com/Stilgaar/air-guitar-site-vitrine-HTML-CSS",
-        "back": "",
-        "pic": "/img-port/guit.jpg",
-        "explain": "Notre tout premier mini projet de début de formation. Je n'y ai pas retouché depuis que je l'ai mis sur GitHub. C'est le résultat de notre première semaine de code au Bocal Academy. Un simple site vitrine. Avant cela, je n'avais jamais codé.",
-    },
 
 ]
 
@@ -134,6 +106,8 @@ export const comp = [
                 { "name": "Mongo DB", "src": i + "mongo.png" },
                 { "name": "REST", "src": i + "rest.png" },
                 { "name": "GraphQL", "src": i + "gra.png" },
+                { "name": "FireBase", "src": i + "fire.png" },
+
             ]
     },
     {
@@ -248,7 +222,7 @@ export const form = [
                     { "point": "1 heures 22 minutes", "duration": true, "bold": true },
                 ],
                 "total": 146 + 82,
-                "done": "Formation Terminée , premiers Frameworks CSR et SSR"
+                "done": "Formations Terminées , premiers Frameworks CSR et SSR"
             }
         ]
     },
@@ -273,13 +247,13 @@ export const form = [
                     { "point": "Apprentissage et approfondissement des hooks supplémentaires : useRef, useCallback, useReduce" },
                     { "point": "Hooks perso" },
                     { "point": "React & Firebase (v8.5)" },
-                    { "point": "Firebase : CRUD - Authentication" },
+                    { "point": "Firebase : CRUD - Authentication - Rules - Deploy" },
                     { "point": "Création de quatre projets distinct de mise en pratique" },
+                    { "point": "Création d'un 'trello' avec React et Firebase" },
                     { "point": "23 heures 30", "duration": true, "bold": true },
-                    { "point": "(En cours)", "bold": true },
                 ],
                 "total": 193 + 1410,
-                "done": "Formation Terminée"
+                "done": "Formations Terminées"
             }
         ]
     },
@@ -308,7 +282,7 @@ export const form = [
                     { "point": "20 heures", "duration": true, "bold": true },
                 ],
                 "total": 155 + 1200,
-                "done": "Formation Terminée, premier 'Boilerplate' JavaScript"
+                "done": "Formations Terminées, premier 'Boilerplate' JavaScript"
             }
         ]
     },
@@ -330,7 +304,7 @@ export const form = [
                     { "point": "30 minutes", "duration": true, "bold": true },
                 ],
                 "total": 54 + 30,
-                "done": "Formation Terminée"
+                "done": "Formations Terminées"
             }
         ]
     },
