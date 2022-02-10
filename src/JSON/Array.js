@@ -113,16 +113,18 @@ export const comp = [
     {
         "Outils": [
             { "name": "Git", "src": i + "git.png" },
-            { "name": "VS code", "src": i + "VSC.png" },
             { "name": "Postman", "src": i + "Postman.png" },
+            { "name": "Redux/useReducer", "src": i + "redux.png" },
             { "name": "Babel", "src": i + "babel.jpg" },
             { "name": "WebPack", "src": i + "web.png" },
             { "name": "useQuery", "src": i + "query.svg" },
+            { "name": "Jest", "src": i + "jest.png" },
             { "name": "Android Studios", "src": i + "Android.png" },
             { "name": "SCRUM", "src": i + "Scrum.png" },
             { "name": "Compass", "src": i + "compas.png" },
             { "name": "3T", "src": i + "3t.png" },
             { "name": "LightRoom", "src": i + "lr.png" },
+
         ]
     },
     {
@@ -292,7 +294,7 @@ export const form = [
                 "type": "Cours en Ligne",
                 "support": "YouTube",
                 "year": "Janvier 2022",
-                "explanation": "UseQuery - React Router Dom V6",
+                "explanation": "UseQuery - Router Dom 6 - Redux - Jest",
                 "points": [
                     { "point": "useQuery", "author": "Shaun Penning", "bold": true },
                     { "point": "Apprentissage de la V.2 de useQuery, utilisation de la documentation pour l'utilisation de la V3" },
@@ -301,9 +303,19 @@ export const form = [
                     { "point": '' },
                     { "point": "React Router Dom V6", "author": "Shaun Penning", "bold": true },
                     { "point": "Nouvelles pratiques" },
-                    { "point": "30 minutes", "duration": true, "bold": true },
+                    { "point": "41 minutes", "duration": true, "bold": true },
+                    { "point": '' },
+                    { "point": "Redux", "author": "Graphikart", "bold": true },
+                    { "point": "Utilisation de Redux dans React" },
+                    { "point": "60 minutes", "duration": true, "bold": true },
+                    { "point": '' },
+                    { "point": "Jest", "author": "Laith Harb", "bold": true },
+                    { "point": "Mettre en place des test unitaires dans React avec Jest" },
+                    { "point": "Test d'intégration dans React avec Jest" },
+                    { "point": "Réaliser des 'Mock', de composants, de fonctions et d'axios" },
+                    { "point": "2 heures 16 minutes", "duration": true, "bold": true },
                 ],
-                "total": 54 + 30,
+                "total": 54 + 41 + 60 + 136,
                 "done": "Formations Terminées"
             }
         ]

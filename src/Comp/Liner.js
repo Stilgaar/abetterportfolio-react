@@ -11,11 +11,8 @@ function Liner({ i, main, notmain, index }) {
                         <img className="img-full card" src={i.pic} alt={`${i.title} - ${i.date}`} />
                         :
                         <div>
-                            {i.stack === "React Native" ?
-                                <img className="img-react" src={i.pic} alt={`${i.title} - ${i.date}`} />
-                                :
-                                <img className="p-1 m-a img-thumb" src={i.pic} alt={`${i.title} - ${i.date}`} />
-                            }
+                            <img className={i.stack === "React Native" ? "img-react" : "p-1 m-a img-thumb"}
+                                src={i.pic} alt={`${i.title} - ${i.date}`} />
                         </div>
                     }
                 </div>

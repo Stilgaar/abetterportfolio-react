@@ -12,7 +12,7 @@ function Lineform({ i }) {
                 <span className="text-primary-dark-2">
                     Type : </span> {i.type}</p>
 
-            <ul className="">
+            <ul>
 
                 {i.points.map((point, index) => (
                     <li className={point?.bold ? "font-sm fw-br" : "font-sm"}

@@ -4,7 +4,7 @@ function Comp({ i, display, indexform }) {
 
     return (
         <div
-            className={display === "comp" ? "col-6-xs col-4-md col-4-lg col-2-xl col-2-bp"
+            className={display === "comp" ? "col-6-xs col-4-md col-3-lg col-2-xl col-2-bp"
                 : display === 'contact' ? "col-12-xs col-12-md col-8-lg col-6-xl col-6-bp"
                     : 'col-12-xs col-12-md col-8-lg col-6-xl col-6-bp'}>
 

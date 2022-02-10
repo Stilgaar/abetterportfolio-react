@@ -148,10 +148,10 @@ img {
 }
 @media (min-width: 960px) {
 
-  .col-4-lg {
+  .col-3-lg {
     box-sizing: border-box;
     flex-grow: 0;
-    width: 33.3333333333%;
+    width: 25%;
   }
 
   .col-6-lg {
