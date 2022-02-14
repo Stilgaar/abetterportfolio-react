@@ -282,8 +282,13 @@ export const form = [
                     { "point": "Création d'une base de données en Firebase" },
                     { "point": "Création d'une première bibilothèque de modification de UI en JavaScript" },
                     { "point": "20 heures", "duration": true, "bold": true },
+                    { "point": '' },
+                    { "point": "jQuerry", "author": "Shaun Penning", "bold": true },
+                    { "point": 'Bases du FrameWork jQuery, avec ses méthodes' },
+                    { "point": 'Animations en jQuerry' },
+                    { "point": "2 heures 43 minutes", "duration": true, "bold": true },
                 ],
-                "total": 155 + 1200,
+                "total": 155 + 1200 + 163,
                 "done": "Formations Terminées, premier 'Boilerplate' JavaScript"
             }
         ]
@@ -294,7 +299,7 @@ export const form = [
                 "type": "Cours en Ligne",
                 "support": "YouTube",
                 "year": "Janvier 2022",
-                "explanation": "UseQuery - Router Dom 6 - Redux - Jest",
+                "explanation": "UseQuery - Router Dom 6 - Redux - Jest - Jason Web Token",
                 "points": [
                     { "point": "useQuery", "author": "Shaun Penning", "bold": true },
                     { "point": "Apprentissage de la V.2 de useQuery, utilisation de la documentation pour l'utilisation de la V3" },
@@ -314,8 +319,14 @@ export const form = [
                     { "point": "Test d'intégration dans React avec Jest" },
                     { "point": "Réaliser des 'Mock', de composants, de fonctions et d'axios" },
                     { "point": "2 heures 16 minutes", "duration": true, "bold": true },
+                    { "point": '' },
+                    { "point": "JWT", "author": "Shaun Penning", "bold": true },
+                    { "point": 'Utilisation de Jason Web Token, mise en place de cookies' },
+                    { "point": 'Utilisation de bcrypt pour la sécurisation des mots de passe' },
+                    { "point": "3 heures 7 minutes", "duration": true, "bold": true },
+
                 ],
-                "total": 54 + 41 + 60 + 136,
+                "total": 54 + 41 + 60 + 136 + 187,
                 "done": "Formations Terminées"
             }
         ]
